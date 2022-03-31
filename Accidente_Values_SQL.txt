@@ -1,0 +1,726 @@
+
+INSERT INTO Accidente (
+   	Data,
+	Valoare_Pagube
+)
+VALUES
+    (
+        convert(date,'04-10-19',5),
+	1
+    ),
+(
+        convert(date,'05-05-20',5),
+	1
+    ),
+(
+        convert(date,'20-07-18',5),
+	1
+    ),
+(
+        convert(date,'01-09-18',5),
+	1
+    ),
+(
+        convert(date,'28-04-19',5),
+	1
+    )
+
+
+
+SET IDENTITY_INSERT AngajatAccident ON
+
+INSERT INTO AngajatAccident (
+   	
+	NumarAccident,
+	AngajatID
+)
+VALUES
+    (
+        1,
+	7
+    ),
+(
+        1,
+	8
+    ),
+(
+       2,
+	13
+    ),
+(
+        3,
+	21
+    ),
+(
+       3,
+	22
+    ),
+(
+        3,
+	4
+    ),
+(
+        4,
+	28
+    ),
+(
+        5,
+	30
+    )
+
+SET IDENTITY_INSERT AngajatAccident OFF
+
+
+
+
+INSERT INTO Angajati (Nume, Prenume, FabricaID, CNP, Sex, DataNasterii, NumarTelefon, DataAngajarii, Salariu)
+VALUES (	
+		'Alex',
+		'Oprea',
+		1,
+		'1700930469883',
+		'M',
+		convert(date,'30-07-70',5),
+		'0744679199',
+		convert(date,'18-06-12',5),
+		5000
+	),
+	(	
+		'Ionut',
+		'Tabacu',
+		2,
+		'1790427231338',
+		'M',
+		convert(date,'27-04-79',5),
+		'0724049247',
+		convert(date,'06-02-00',5),
+		6600
+	),
+	(	
+		'Mădălina',
+		'Călin',
+		3,
+		'2630806190757',
+		'F',
+		convert(date,'12-12-63',5),
+		'0372790059',
+		convert(date,'05-11-07',5),
+		5500
+	),
+	(	
+		'Valeriu',
+		'Barbu',
+		4,
+		'1681202405587',
+		'M',
+		convert(date,'02-05-68',5),
+		'0257836403',
+		convert(date,'29-06-10',5),
+		5600
+	),
+	(	
+		'Melania',
+		'Tunaru',
+		5,
+		'2681017385951',
+		'F',
+		convert(date,'01-06-68',5),
+		'0358299942',
+		convert(date,'12-03-03',5),
+		7800
+	),
+	(	
+		'Alfred',
+		'Tabacu',
+		6,
+		'1700802197496',
+		'M',
+		convert(date,'27-07-70',5),
+		'0215790641',
+		convert(date,'11-10-05',5),
+		7000
+	),
+	(	
+		'Carina',
+		'Buti',
+		1,
+		'6020318338274',
+		'F',
+		convert(date,'18-03-02',5),
+		'0230152446',
+		convert(date,'10-01-22',5),
+		4000
+	),
+	(	
+		'Nicolae',
+		'Dinescu',
+		1,
+		'1970415442070',
+		'M',
+		convert(date,'15-04-97',5),
+		'0318936448',
+		convert(date,'23-05-19',5),
+		3800
+	),
+	(	
+		'Carla',
+		'Vlăsceanu',
+		1,
+		'2750204306046',
+		'F',
+		convert(date,'04-03-75',5),
+		'0761901890',
+		convert(date,'10-09-12',5),
+		3500
+	),
+	(	
+		'Andreea',
+		'Lupu',
+		1,
+		'2881009135204',
+		'F',
+		convert(date,'09-10-88',5),
+		'0788440325',
+		convert(date,'28-11-15',5),
+		5000
+	),
+	(	
+		'Gabriel',
+		'Gherban',
+		2,
+		'1900910264040',
+		'M',
+		convert(date,'10-07-90',5),
+		'0231490678',
+		convert(date,'20-10-16',5),
+		4200
+	),
+	(	
+		'Valeriu',
+		'Diaconescu',
+		2,
+		'1941104278061',
+		'M',
+		convert(date,'04-11-94',5),
+		'0792510817',
+		convert(date,'02-11-20',5),
+		5280
+	),
+	(	
+		'Florentina',
+		'Vasilică',
+		2,
+		'2870908402762',
+		'F',
+		convert(date,'08-07-87',5),
+		'0332924127',
+		convert(date,'24-02-17',5),
+		4300
+	),
+	(	
+		'Stefan',
+		'Pop',
+		2,
+		'1650112013198',
+		'M',
+		convert(date,'12-01-65',5),
+		'0756438827',
+		convert(date,'17-10-07',5),
+		2800
+	),
+	(	
+		'Zoe',
+		'Dirjan',
+		3,
+		'2630731275956',
+		'F',
+		convert(date,'31-08-63',5),
+		'0716038162',
+		convert(date,'11-10-10',5),
+		4900
+	),
+	(	
+		'Robert',
+		'Tudor',
+		3,
+		'2901122409680',
+		'M',
+		convert(date,'22-11-90',5),
+		'0777526892',
+		convert(date,'14-04-17',5),
+		5100
+	),
+	(	
+		'Lidia',
+		'Dimitrescu',
+		3,
+		'2690125270169',
+		'F',
+		convert(date,'25-01-69',5),
+		'0363731004',
+		convert(date,'14-03-10',5),
+		4000
+	),
+	(	
+		'Bogdan',
+		'Tabacu',
+		3,
+		'1890917109558',
+		'M',
+		convert(date,'17-09-89',5),
+		'0729624487',
+		convert(date,'24-01-19',5),
+		4300
+	),
+	(	
+		'Smaranda',
+		'Pindaru',
+		4,
+		'2900119020686',
+		'F',
+		convert(date,'19-01-90',5),
+		'0218215866',
+		convert(date,'11-06-18',5),
+		3800
+	),
+	(	
+		'Alecu',
+		'Toma',
+		4,
+		'1940721358348',
+		'M',
+		convert(date,'21-07-94',5),
+		'0773116816',
+		convert(date,'26-05-20',5),
+		3000
+	),
+	(	
+		'Adina',
+		'Pălici',
+		4,
+		'2760616426251',
+		'F',
+		convert(date,'16-06-76',5),
+		'0761901890',
+		convert(date,'15-04-15',5),
+		3600
+	),
+	(	
+		'Florin',
+		'Dragomir',
+		4,
+		'1871024458391',
+		'M',
+		convert(date,'24-08-87',5),
+		'0772852220',
+		convert(date,'14-06-16',5),
+		4400
+	),
+	(	
+		'Carla',
+		'Radu',
+		5,
+		'2880906301079',
+		'F',
+		convert(date,'06-07-88',5),
+		'0332924127',
+		convert(date,'09-10-19',5),
+		4790
+	),
+	(	
+		'Narcisa',
+		'Slaboiu',
+		5,
+		'1890401251140',
+		'F',
+		convert(date,'01-04-89',5),
+		'0773116816',
+		convert(date,'15-02-18',5),
+		4100
+	),
+	(	
+		'Valentin',
+		'Nitu',
+		5,
+		'1901106259731',
+		'M',
+		convert(date,'06-11-90',5),
+		'0756438827',
+		convert(date,'07-10-19',5),
+		4390
+	),
+	(	
+		'Ana',
+		'Chirită',
+		5,
+		'2890421188098',
+		'F',
+		convert(date,'21-04-89',5),
+		'0716038162',
+		convert(date,'11-01-14',5),
+		5000
+	),
+	(	
+		'Vlad',
+		'Ifrim',
+		6,
+		'1881003040680',
+		'M',
+		convert(date,'03-08-88',5),
+		'0777526892',
+		convert(date,'13-07-15',5),
+		4270
+	),
+	(	
+		'Lucian',
+		'Diaconu',
+		6,
+		'1920713387640',
+		'M',
+		convert(date,'13-07-92',5),
+		'0363731004',
+		convert(date,'22-03-17',5),
+		3700
+	),
+	(	
+		'Mirabela',
+		'Todică',
+		6,
+		'2940617174371',
+		'F',
+		convert(date,'17-06-94',5),
+		'0729624487',
+		convert(date,'15-12-20',5),
+		3200
+	),
+	(	
+		'George',
+		'Dragomir',
+		6,
+		'1930926138312',
+		'M',
+		convert(date,'26-09-93',5),
+		'0218215866',
+		convert(date,'14-03-16',5),
+		3100
+	)
+
+
+
+INSERT INTO Fabrici (
+    Nume,
+    JudetID,
+    NumeOras
+)
+VALUES
+    (
+        'Arctic',
+	17,
+	'Gaesti'
+    ),
+    (
+        'Automobile Dacia S.A.',
+	4,
+	'Mioveni'
+    ),
+    (
+        'Fratii Schiel',
+	9,
+	'Brasov'
+    ),
+    (
+        'ASTRA',
+	3,
+	'Arad'
+    ),
+    (
+        'Protecter & Gamble',
+	32,
+	'Urlati'
+    ),
+    (
+        'Faist Mekatronic',
+	6,
+	'Oradea'
+    )
+
+
+
+INSERT INTO Intretinuti (
+	AngajatID,
+   	Nume,
+    	Prenume,
+	CNP,
+	Sex,
+	DataNasterii
+)
+VALUES(
+	5,
+        'Adelina',
+	'Mărguta',
+	'6001102054486',
+	'F',
+	convert(date,'02-11-00',5)
+    ),
+    (
+	9,
+        'Dorin',
+	'Mocanu',
+	'5010629240281',
+	'M',
+	convert(date,'29-06-01',5)
+    ),
+
+    (
+	10,
+        'Carmen',
+	'Slăboiu',
+	'2991211111945',
+	'F',
+	convert(date,'11-12-99',5)
+    ),
+
+    (
+	12,
+        'Alberto',
+	'Dinu',
+	'1991123317975',
+	'M',
+	convert(date,'23-11-99',5)
+    ),
+
+    (
+	15,
+        'Lidia ',
+	'Matasaru',
+	'6010929066344',
+	'F',
+	convert(date,'29-09-01',5)
+    ),
+
+    (
+	20,
+        'Eugen',
+	'Popescu',
+	'5020907067784',
+	'M',
+	convert(date,'07-09-02',5)
+    ),
+
+    (
+	23,
+        'Iliana',
+	'Buti',
+	'6020424206645',
+	'F',
+	convert(date,'24-04-02',5)
+    ),
+
+    (
+	26,
+        'Cristi',
+	'Tudor',
+	'5010630082181',
+	'M',
+	convert(date,'30-06-01',5)
+    ),
+
+    (
+	28,
+        'Lucia',
+	'Olteanu',
+	'6031109423257',
+	'F',
+	convert(date,'09-11-03',5)
+    ),
+
+    (
+	12,
+        'Alexandru',
+	'Diaconescu',
+	'1920128121599',
+	'M',
+	convert(date,'28-01-92',5)
+    ),
+
+    (
+	18,
+        'Oana',
+	'Pavel',
+	'6010531069138',
+	'F',
+	convert(date,'31-05-01',5)
+    )
+
+
+
+
+INSERT INTO Judete (Nume)
+VALUES ('Bucuresti');
+
+INSERT INTO Judete (Nume)
+VALUES ('Alba');
+
+INSERT INTO Judete (Nume)
+VALUES ('Arad');
+
+INSERT INTO Judete (Nume)
+VALUES ('Arges');
+
+
+INSERT INTO Judete (Nume)
+VALUES ('Bacău');
+
+
+INSERT INTO Judete (Nume)
+VALUES ('Bihor');
+
+
+INSERT INTO Judete (Nume)
+VALUES ('Bistriţa-Năsăud');
+
+
+INSERT INTO Judete (Nume)
+VALUES ('Botoşani');
+
+
+INSERT INTO Judete (Nume)
+VALUES ('Braşov');
+
+
+INSERT INTO Judete (Nume)
+VALUES ('Brăila');
+
+
+INSERT INTO Judete (Nume)
+VALUES ('Buzău');
+
+
+INSERT INTO Judete (Nume)
+VALUES ('Caraş-Severin');
+
+
+INSERT INTO Judete (Nume)
+VALUES ('Călăraşi');
+
+
+INSERT INTO Judete (Nume)
+VALUES ('Cluj');
+
+
+INSERT INTO Judete (Nume)
+VALUES ('Constanţa');
+
+
+INSERT INTO Judete (Nume)
+VALUES ('Covasna');
+
+
+INSERT INTO Judete (Nume)
+VALUES ('Dâmboviţa');
+
+
+INSERT INTO Judete (Nume)
+VALUES ('Dolj');
+
+
+INSERT INTO Judete (Nume)
+VALUES ('Galaţi');
+
+
+INSERT INTO Judete (Nume)
+VALUES ('Giurgiu');
+
+
+INSERT INTO Judete (Nume)
+VALUES ('Gorj');
+
+
+INSERT INTO Judete (Nume)
+VALUES ('Harghita');
+
+
+INSERT INTO Judete (Nume)
+VALUES ('Hunedoara');
+
+
+INSERT INTO Judete (Nume)
+VALUES ('Ialomiţa');
+
+
+INSERT INTO Judete (Nume)
+VALUES ('Iaşi');
+
+
+INSERT INTO Judete (Nume)
+VALUES ('Ilfov');
+
+
+INSERT INTO Judete (Nume)
+VALUES ('Maramureş');
+
+
+INSERT INTO Judete (Nume)
+VALUES ('Mehedinţi');
+
+
+INSERT INTO Judete (Nume)
+VALUES ('Mureş');
+
+
+INSERT INTO Judete (Nume)
+VALUES ('Neamţ');
+
+
+INSERT INTO Judete (Nume)
+VALUES ('Olt');
+
+
+INSERT INTO Judete (Nume)
+VALUES ('Prahova');
+
+
+INSERT INTO Judete (Nume)
+VALUES ('Satu Mare');
+
+
+INSERT INTO Judete (Nume)
+VALUES ('Sălaj');
+
+
+INSERT INTO Judete (Nume)
+VALUES ('Sibiu');
+
+
+INSERT INTO Judete (Nume)
+VALUES ('Suceava');
+
+
+INSERT INTO Judete (Nume)
+VALUES ('Teleorman');
+
+
+INSERT INTO Judete (Nume)
+VALUES ('Timiş');
+
+
+INSERT INTO Judete (Nume)
+VALUES ('Tulcea');
+
+
+INSERT INTO Judete (Nume)
+VALUES ('Vâlcea');
+
+
+INSERT INTO Judete (Nume)
+VALUES ('Vaslui');
+
+
+INSERT INTO Judete (Nume)
+VALUES ('Vrancea');
+
+
+
+
+
+
